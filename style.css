@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+    body{
+    background: url(flower.jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+   
+   margin-top: 0%;
+    background-attachment: fixed;
+}
+h1{
+    color:darkblue;
+}
+    
+
+
+.main{
+    color:darkblue;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+   
+}
+li,h1,ul{
+    display: inline;
+    color:deeppink;
+   
+    
+}
+li{
+    padding: 5px;
+    color:deeppink;
+    cursor: pointer;
+    text-decoration: none;
+    transform: 0.3s;
+    font-family: cursive;
+
+    }
+ul{
+    margin-left: 40%;
+}
+li:hover{
+    
+    text-decoration: underline wheat;
+   transition: scale(0.3s);
+   color: navy;
+    
+    
+}
+.must{
+    margin-bottom: 10%;
+}
+.sub{
+    color: white;
+    margin-left: 5%;
+}
+.main1{
+    font-family:cursive;
+}
+.main2{
+    font-family:cursive;
+}
+.para{
+    width:40%;
+    font-family:monospace;
+    color: wheat;
+}
+.sub1{
+    margin-left: 5%;
+    border-radius: 5px;
+   
+}
+button{
+    color: white;
+    background-color: sandybrown;
+    border-radius: 5px ;
+    border: sandybrown 2px;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+   
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+button:hover{
+      text-decoration: underline;
+      background-color: violet;
+      color: black;
+      transform: scale(1.03);
+
+
+}
+li,a{
+    color:deeppink;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+a:hover{
+    background-color:green;
+
+    color: white;
+    
+}
+
+@media  screen and (max-width:600px) {
+    ul{
+        font-size: 10px;
+        padding: 2px;
+        margin-left: 3%;
+        color: deeppink;
+    }
+    .main{
+        font-size: 20px;
+    }
+    .para{
+        width: 400px;
+        color:darkred;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .sub{
+        margin-top: 25%;
+    }
+    .main1{
+        color:darkviolet ;
+    }
+    .main2{
+         color:darkviolet;
+    }
+    li{
+        color: deeppink;
+    }
+    
+}

@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   
+    background:url(guna.jpg);
+    background-repeat: no-repeat;
+    background-size: 350px 500px;
+   background-position: center;
+   background-attachment: fixed;
+}
+h1{
+    margin-left: 37%;
+    margin-top: 8%;
+    color: white;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    
+    font-size: 35px;
+}
+h2{
+    margin-left: 38%;
+    color:salmon;
+    font-family:Vladimir Script;
+    font-size: 45px;
+}
+h3{
+    margin-left: 38%;
+    margin-top: 7%;
+    color:violet;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+ul{
+    margin-left: 38%;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+    
+   
+}
+li{
+    text-decoration: none;
+    display: inline;
+    }
+ul,li{
+     list-style:none;
+     
+}
+.one{
+    margin-left: 8%;
+    display: inline;
+   
+}
+.two{
+    display: inline;
+    margin-left: 9.5%;
+}
+.three{
+    display: inline;
+    margin-left: 7.5%;
+}
+.four{
+    display: inline;
+    margin-left: 10%;
+}
+.five{
+    display: inline;
+    margin-left: 4%;
+}
+@media screen and (max-width:600px) {
+    h1{
+        margin-left: 15%;
+        margin-top: 25%;
+    }
+    h2{
+        margin-left: 20%;
+    }
+    ul{
+        margin-left: 17%;
+    }
+    h3{
+        margin-left: 17%;
+    }
+}
